@@ -1,0 +1,45 @@
+{
+  "name": "randommoviegen",
+  "version": "1.0.0",
+  "description": "A random movie generator",
+  "main": "app.js",
+  "scripts": {
+    "test": "start",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/KereBere/random-movie-finder.git"
+  },
+  "keywords": [
+    "random",
+    "movie",
+    "find",
+    "me",
+    "a",
+    "movie"
+  ],
+  "author": "Ali saydam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KereBere/random-movie-finder/issues"
+  },
+  "homepage": "https://github.com/KereBere/random-movie-finder#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^11.0.0",
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2",
+    "express-session": "^1.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.5",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1"
+  }
+}

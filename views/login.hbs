@@ -1,0 +1,10 @@
+<h2>
+    Login
+</h2>
+<form action="/auth/login" class="register-form" method="post">
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" placeholder="Enter Email" value="{{{email}}}">
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password" placeholder="Enter Password" value="{{{password}}}">
+    <button type="submit">Login</button>
+    {{> message }}
