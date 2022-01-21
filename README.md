@@ -1,4 +1,4 @@
-# This is a random movie generator with Node.js & Express
+# This is a Auth homework with jwts
 
 -How to get Bearer from a request
 "# week2-KereBere" 
